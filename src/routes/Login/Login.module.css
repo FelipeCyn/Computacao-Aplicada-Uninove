@@ -1,0 +1,59 @@
+.container {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    height: 100%;
+}
+
+.leftSubContainer {
+    width:75%;
+    background-color: green;
+    padding: 0px;
+    padding-top: 50px;
+    background-image: url('../../assets/loginBackground.jpg');
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+}
+
+.rightSubContainer {
+    width: 25%;
+    background-color: rgb(30, 30, 30);
+    padding: 50px 40px 0px 40px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+}

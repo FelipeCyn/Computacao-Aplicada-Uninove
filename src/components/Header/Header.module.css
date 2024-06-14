@@ -1,0 +1,11 @@
+.container {
+    background-color: rgb(57, 57, 57);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}

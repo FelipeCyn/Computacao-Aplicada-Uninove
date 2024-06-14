@@ -1,0 +1,10 @@
+.container {
+    background-color: darkblue;
+    border: 0px;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
